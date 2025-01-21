@@ -1,0 +1,203 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #222b53;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #222b53;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  /* Button Styling */
+  button {
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #7a8de4;
+  }
+  
+  #open-modal {
+    background-color:#222b53;
+    color: white;
+  }
+  
+  #fetch-data-btn {
+    background-color: #ff9800;
+    color: white;
+  }
+  
+  /* Search Input Styling */
+  #search-section {
+    margin: 20px 0;
+  }
+  
+  #search {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 250px;
+    margin-left: 10px;
+  }
+  
+  #search:focus {
+    outline: none;
+    border-color: #222b53;
+  }
+  
+  /* Table Styling */
+  #data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    display: none; /* Initially hidden */
+  }
+  
+  #data-table th, #data-table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  #data-table th {
+    background-color: #222b53;
+    color: white;
+  }
+  
+  #data-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #data-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  #data-table td {
+    font-size: 18px;
+  }
+  
+  /* Modal Styles */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    border-radius: 10px;
+  }
+  
+  .modal-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #add-data-form input,
+  #add-data-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #add-data-form button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #222b53;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #add-data-form button:hover {
+    background-color: #222b53;
+  }
+  
+  /* Close button in Modal */
+  .close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+/* Pagination Styling */
+#pagination {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #pagination button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  #pagination button:hover {
+    background-color: #ddd;
+  }
+  
+  #pagination button.active {
+    background-color: #222b53;
+    color: white;
+  }
+  
+  #pagination button:disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+  }
+    

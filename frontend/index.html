@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Application</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to the Web Application</h1>
+  </header>
+
+  <main>
+    <section id="dynamic-content">
+      <button id="open-modal" >Add New Data</button>
+
+      <!-- Search and Fetch Data Section -->
+      <div id="search-section">
+        <button id="fetch-data-btn">Fetch Data</button>
+        <input type="text" id="search" placeholder="Search by Name">
+      </div>
+
+      <!-- Data Table Section (Initially Hidden) -->
+      <table id="data-table" style="display:none;">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Data rows will go here -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <!-- Modal for adding data -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Add New Item</h2>
+      <form id="add-data-form">
+        <input type="text" id="name" placeholder="Name" required>
+        <textarea id="description" placeholder="Description" required></textarea>
+        <button type="submit">Add Item</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Web Application</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

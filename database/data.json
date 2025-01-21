@@ -1,0 +1,519 @@
+{
+  "sampleData": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "description": "A high-performance laptop for work and gaming."
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "description": "A smartphone with a powerful camera and long battery life."
+    },
+    {
+      "id": 3,
+      "name": "Headphones",
+      "description": "Noise-canceling headphones for an immersive listening experience."
+    },
+    {
+      "id": 4,
+      "name": "Coffee Maker",
+      "description": "A coffee machine that brews rich and aromatic coffee."
+    },
+    {
+      "id": 5,
+      "name": "Smartwatch",
+      "description": "A sleek smartwatch that tracks fitness and notifies you of updates."
+    },
+    {
+      "id": 6,
+      "name": "4K Television",
+      "description": "A 55-inch 4K television with vibrant color and crystal-clear resolution."
+    },
+    {
+      "id": 7,
+      "name": "Bluetooth Speaker",
+      "description": "A portable Bluetooth speaker with high-quality sound."
+    },
+    {
+      "id": 8,
+      "name": "Tablet",
+      "description": "A lightweight tablet for work, entertainment, and education."
+    },
+    {
+      "id": 9,
+      "name": "Air Purifier",
+      "description": "An air purifier that removes allergens and pollutants from the air."
+    },
+    {
+      "id": 10,
+      "name": "Digital Camera",
+      "description": "A professional-grade digital camera for high-resolution photography."
+    },
+    {
+      "id": 11,
+      "name": "Gaming Console",
+      "description": "A gaming console for the latest games and immersive experiences."
+    },
+    {
+      "id": 12,
+      "name": "Smart Thermostat",
+      "description": "A smart thermostat that adjusts your home's temperature based on your habits."
+    },
+    {
+      "id": 13,
+      "name": "Electric Kettle",
+      "description": "An electric kettle for quickly boiling water for tea and coffee."
+    },
+    {
+      "id": 14,
+      "name": "Kitchen Blender",
+      "description": "A high-powered blender perfect for smoothies and soups."
+    },
+    {
+      "id": 15,
+      "name": "Portable Charger",
+      "description": "A portable charger that keeps your devices powered on the go."
+    },
+    {
+      "id": 16,
+      "name": "Electric Toothbrush",
+      "description": "A rechargeable electric toothbrush with multiple cleaning modes."
+    },
+    {
+      "id": 17,
+      "name": "Smart Light Bulb",
+      "description": "A Wi-Fi-enabled smart light bulb that adjusts brightness and color."
+    },
+    {
+      "id": 18,
+      "name": "Food Processor",
+      "description": "A food processor that chops, slices, and grinds ingredients quickly."
+    },
+    {
+      "id": 19,
+      "name": "Electric Bike",
+      "description": "An electric bike with a long-range battery and smooth ride."
+    },
+    {
+      "id": 20,
+      "name": "Outdoor Grill",
+      "description": "A gas-powered outdoor grill perfect for BBQs and gatherings."
+    },
+    {
+      "id": 21,
+      "name": "Vacuum Cleaner",
+      "description": "A powerful vacuum cleaner for both carpets and hardwood floors."
+    },
+    {
+      "id": 22,
+      "name": "Washing Machine",
+      "description": "A high-efficiency washing machine that saves water and energy."
+    },
+    {
+      "id": 23,
+      "name": "Dishwasher",
+      "description": "A modern dishwasher with various cleaning settings and fast cycles."
+    },
+    {
+      "id": 24,
+      "name": "Refrigerator",
+      "description": "A spacious refrigerator with a smart cooling system and ice maker."
+    },
+    {
+      "id": 25,
+      "name": "Microwave Oven",
+      "description": "A microwave oven with quick cooking capabilities and various presets."
+    },
+    {
+      "id": 26,
+      "name": "Electric Fan",
+      "description": "An oscillating electric fan that cools the room quickly."
+    },
+    {
+      "id": 27,
+      "name": "Air Conditioner",
+      "description": "A powerful air conditioner to keep your home cool during hot months."
+    },
+    {
+      "id": 28,
+      "name": "Heated Blanket",
+      "description": "A heated blanket to keep you warm during the cold winter months."
+    },
+    {
+      "id": 29,
+      "name": "Pressure Cooker",
+      "description": "A pressure cooker that speeds up cooking time for stews and soups."
+    },
+    {
+      "id": 30,
+      "name": "Cordless Drill",
+      "description": "A versatile cordless drill for home repairs and DIY projects."
+    },
+    {
+      "id": 31,
+      "name": "Cordless Vacuum",
+      "description": "A cordless vacuum cleaner that's perfect for quick clean-ups."
+    },
+    {
+      "id": 32,
+      "name": "Power Bank",
+      "description": "A portable power bank for charging devices while traveling."
+    },
+    {
+      "id": 33,
+      "name": "Drone",
+      "description": "A high-quality drone for photography and aerial videos."
+    },
+    {
+      "id": 34,
+      "name": "Smart Door Lock",
+      "description": "A smart door lock that allows remote access and monitoring."
+    },
+    {
+      "id": 35,
+      "name": "Home Security Camera",
+      "description": "A home security camera with motion detection and real-time alerts."
+    },
+    {
+      "id": 36,
+      "name": "Wireless Router",
+      "description": "A wireless router with strong signal and fast internet speeds."
+    },
+    {
+      "id": 37,
+      "name": "Robot Vacuum",
+      "description": "An automated vacuum cleaner that can clean your house while you're away."
+    },
+    {
+      "id": 38,
+      "name": "Smart Fridge",
+      "description": "A smart fridge with a touchscreen and app control for inventory management."
+    },
+    {
+      "id": 39,
+      "name": "E-Reader",
+      "description": "An e-reader for digital books with a high-resolution screen."
+    },
+    {
+      "id": 40,
+      "name": "Digital Frame",
+      "description": "A digital photo frame that displays your pictures in a slideshow."
+    },
+    {
+      "id": 41,
+      "name": "Personal Blender",
+      "description": "A compact blender perfect for smoothies and shakes."
+    },
+    {
+      "id": 42,
+      "name": "Wine Cooler",
+      "description": "A wine cooler that maintains the ideal temperature for your wine collection."
+    },
+    {
+      "id": 43,
+      "name": "Humidifier",
+      "description": "A humidifier that helps maintain the ideal moisture levels in your home."
+    },
+    {
+      "id": 44,
+      "name": "Smart Scale",
+      "description": "A smart scale that syncs with your fitness app to track weight and body metrics."
+    },
+    {
+      "id": 45,
+      "name": "Guitar",
+      "description": "A beginner-friendly guitar with smooth action and rich sound."
+    },
+    {
+      "id": 46,
+      "name": "Piano",
+      "description": "A digital piano with weighted keys and a variety of instrument sounds."
+    },
+    {
+      "id": 47,
+      "name": "Keyboard",
+      "description": "A wireless keyboard with a comfortable typing experience."
+    },
+    {
+      "id": 48,
+      "name": "Gaming Chair",
+      "description": "A comfortable gaming chair designed for long hours of play."
+    },
+    {
+      "id": 49,
+      "name": "Desk Lamp",
+      "description": "An adjustable desk lamp with multiple brightness settings."
+    },
+    {
+      "id": 50,
+      "name": "Standing Desk",
+      "description": "An ergonomic standing desk that helps improve posture and comfort."
+    },
+    {
+      "id": 51,
+      "name": "Office Chair",
+      "description": "An ergonomic office chair with adjustable height and lumbar support."
+    },
+    {
+      "id": 52,
+      "name": "Portable Fan",
+      "description": "A small, portable fan to keep you cool on the go."
+    },
+    {
+      "id": 53,
+      "name": "Laptop Bag",
+      "description": "A sleek laptop bag designed for easy transport and protection."
+    },
+    {
+      "id": 54,
+      "name": "Messenger Bag",
+      "description": "A stylish messenger bag for carrying books and essentials."
+    },
+    {
+      "id": 55,
+      "name": "Backpack",
+      "description": "A spacious backpack perfect for travel and outdoor activities."
+    },
+    {
+      "id": 56,
+      "name": "Duffel Bag",
+      "description": "A durable duffel bag ideal for gym and travel."
+    },
+    {
+      "id": 57,
+      "name": "Wallet",
+      "description": "A sleek leather wallet with plenty of card and cash storage."
+    },
+    {
+      "id": 58,
+      "name": "Sunglasses",
+      "description": "Fashionable sunglasses with UV protection."
+    },
+    {
+      "id": 59,
+      "name": "Watch",
+      "description": "A stylish watch with both analog and digital features."
+    },
+    {
+      "id": 60,
+      "name": "Rucksack",
+      "description": "A rugged rucksack designed for outdoor adventures."
+    },
+    {
+      "id": 61,
+      "name": "Travel Pillow",
+      "description": "A neck pillow for added comfort during long trips."
+    },
+    {
+      "id": 62,
+      "name": "Suitcase",
+      "description": "A sturdy suitcase with wheels for easy transport."
+    },
+    {
+      "id": 63,
+      "name": "Thermal Flask",
+      "description": "A thermal flask that keeps your drinks hot or cold for hours."
+    },
+    {
+      "id": 64,
+      "name": "Tent",
+      "description": "A lightweight tent for camping trips and outdoor adventures."
+    },
+    {
+      "id": 65,
+      "name": "Sleeping Bag",
+      "description": "A comfortable sleeping bag designed for cold weather camping."
+    },
+    {
+      "id": 66,
+      "name": "Camping Stove",
+      "description": "A portable camping stove for cooking meals in the wilderness."
+    },
+    {
+      "id": 67,
+      "name": "Fishing Rod",
+      "description": "A durable fishing rod for freshwater and saltwater fishing."
+    },
+    {
+      "id": 68,
+      "name": "Binoculars",
+      "description": "High-quality binoculars for birdwatching and outdoor exploration."
+    },
+    {
+      "id": 69,
+      "name": "Map",
+      "description": "A detailed map for hiking and outdoor navigation."
+    },
+    {
+      "id": 70,
+      "name": "Portable Grill",
+      "description": "A portable grill for cooking in the great outdoors."
+    },
+    {
+      "id": 71,
+      "name": "Cooler Box",
+      "description": "A sturdy cooler box to keep your food and drinks cold."
+    },
+    {
+      "id": 72,
+      "name": "Solar Lantern",
+      "description": "A solar-powered lantern for illumination during camping trips."
+    },
+    {
+      "id": 73,
+      "name": "Hammer",
+      "description": "A versatile hammer for home repairs and DIY projects."
+    },
+    {
+      "id": 74,
+      "name": "Screwdriver Set",
+      "description": "A set of screwdrivers with various heads for different tasks."
+    },
+    {
+      "id": 75,
+      "name": "Wrench Set",
+      "description": "A wrench set that includes various sizes for fixing nuts and bolts."
+    },
+    {
+      "id": 76,
+      "name": "Tape Measure",
+      "description": "A retractable tape measure for accurate measurements."
+    },
+    {
+      "id": 77,
+      "name": "Toolbox",
+      "description": "A sturdy toolbox for organizing and storing your tools."
+    },
+    {
+      "id": 78,
+      "name": "Paintbrush Set",
+      "description": "A set of paintbrushes for home renovation or artistic projects."
+    },
+    {
+      "id": 79,
+      "name": "Ladder",
+      "description": "A sturdy ladder for reaching high places during home repairs."
+    },
+    {
+      "id": 80,
+      "name": "Shovel",
+      "description": "A heavy-duty shovel for gardening and outdoor work."
+    },
+    {
+      "id": 81,
+      "name": "Gloves",
+      "description": "Protective gloves for gardening and outdoor work."
+    },
+    {
+      "id": 82,
+      "name": "Work Boots",
+      "description": "Durable work boots for outdoor tasks and construction."
+    },
+    {
+      "id": 83,
+      "name": "Garden Hose",
+      "description": "A flexible garden hose for watering plants and outdoor cleaning."
+    },
+    {
+      "id": 84,
+      "name": "Wheelbarrow",
+      "description": "A strong wheelbarrow for transporting soil and gardening tools."
+    },
+    {
+      "id": 85,
+      "name": "Plant Pots",
+      "description": "Decorative plant pots for indoor and outdoor gardening."
+    },
+    {
+      "id": 86,
+      "name": "Compost Bin",
+      "description": "A compost bin for turning organic waste into rich garden soil."
+    },
+    {
+      "id": 87,
+      "name": "Lawn Mower",
+      "description": "A push lawn mower for trimming and maintaining your yard."
+    },
+    {
+      "id": 88,
+      "name": "Bird Feeder",
+      "description": "A bird feeder to attract birds and add charm to your garden."
+    },
+    {
+      "id": 89,
+      "name": "Garden Tools Set",
+      "description": "A complete set of gardening tools for planting and maintenance."
+    },
+    {
+      "id": 90,
+      "name": "Watering Can",
+      "description": "A sturdy watering can for irrigating your plants."
+    },
+    {
+      "id": 91,
+      "name": "Shovel",
+      "description": "A versatile shovel for digging, planting, and outdoor chores."
+    },
+    {
+      "id": 92,
+      "name": "Trowel",
+      "description": "A gardening trowel for digging, planting, and shaping soil."
+    },
+    {
+      "id": 93,
+      "name": "Soil Tester",
+      "description": "A soil tester to measure pH and nutrient levels for better gardening."
+    },
+    {
+      "id": 94,
+      "name": "Pruning Shears",
+      "description": "Sharp pruning shears for trimming and maintaining plants and bushes."
+    },
+    {
+      "id": 95,
+      "name": "Garden Fence",
+      "description": "A decorative garden fence to define the boundary of your outdoor space."
+    },
+    {
+      "id": 96,
+      "name": "Flower Seeds",
+      "description": "A variety of flower seeds to brighten your garden."
+    },
+    {
+      "id": 97,
+      "name": "Lawn Fertilizer",
+      "description": "Fertilizer for nourishing your lawn and promoting healthy growth."
+    },
+    {
+      "id": 98,
+      "name": "Greenhouse",
+      "description": "A greenhouse for growing plants in a controlled environment."
+    },
+    {
+      "id": 99,
+      "name": "Mulch",
+      "description": "Organic mulch to retain moisture and improve soil quality."
+    },
+    {
+      "id": 100,
+      "name": "Garden Sprayer",
+      "description": "A garden sprayer for applying pesticides and fertilizers evenly."
+    },
+    {
+      "id": 101,
+      "name": "LAPTOP",
+      "description": "New Model of Asus Laptop."
+    },
+    {
+      "id": 102,
+      "name": "Hammer",
+      "description": "A Hamper."
+    },
+    {
+      "id": 103,
+      "name": "LAPTOP",
+      "description": "ASUS new model\n"
+    }
+  ]
+}
